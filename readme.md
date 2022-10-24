@@ -1,5 +1,5 @@
 ## 🔗 WordCount App
-[https://vishal-palindrome-checker-game.netlify.app/](https://vishal-palindrome-checker-game.netlify.app/)
+[https://vishal-word-count-app.netlify.app/](https://vishal-word-count-app.netlify.app/)
 
 
 ## ⭐ WordCount App ⭐
