@@ -1,0 +1,67 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background:#553d67 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    /* border: 2px solid red; */
+    max-width: 500px;
+    width: 90%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   font-size: 1.2rem;
+   align-items: center;
+}
+
+.container .textarea{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.container textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.buttons{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttons button{
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    background:#05386B ;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.buttons button:hover{
+    background: #557a95;
+}
+
+@media screen and (max-width:400px) {
+    .buttons button{
+        font-size: 1rem;
+    }
+}
